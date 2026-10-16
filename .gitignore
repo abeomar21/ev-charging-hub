@@ -1,0 +1,97 @@
+# ---------------------------------------------------------------------------
+# Paid standards and other copyrighted documents (working rule 5)
+# Cite title, edition and clause in references/standards-map.md; keep the
+# PDFs on your machine only. Drop them in references/private/ or name them
+# IEC*/EN*/ISO* and they stay out of the repo.
+# Exported design PDFs (sld/, report/) are NOT ignored: they are deliverables.
+# ---------------------------------------------------------------------------
+references/private/
+references/**/*.pdf
+**/IEC*.pdf
+**/iec*.pdf
+**/EN*.pdf
+**/ISO*.pdf
+**/iso*.pdf
+datasheets-private/
+
+# Original project plan export (ROADMAP.md carries the plan in the repo)
+/EV Charging Hub Design Package*Project Plan.pdf
+
+# ---------------------------------------------------------------------------
+# Python (calcs/, ocpp-sim/)
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# Test, coverage and type-check output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Secrets and local config (SteVe/MySQL passwords, GitHub tokens)
+# Commit a .env.example with placeholder values instead.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------------------
+# Docker / SteVe local state
+# ---------------------------------------------------------------------------
+ocpp-sim/steve/
+ocpp-sim/.data/
+docker-compose.override.yml
+
+# ---------------------------------------------------------------------------
+# Scratch output (keep committed figures/tables in docs/ or calcs/out/)
+# ---------------------------------------------------------------------------
+tmp/
+scratch/
+*.tmp
+
+# ---------------------------------------------------------------------------
+# Editors and tools
+# ---------------------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*~
+
+# draw.io backups and lock files
+*.drawio.bkp
+*.drawio.dtmp
+.$*.drawio
+.$*.bkp
+
+# Office lock files (Excel/Word open on BoQ or report)
+~$*
+
+# ---------------------------------------------------------------------------
+# OS
+# ---------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
