@@ -16,6 +16,7 @@ datasheets-private/
 
 # Original project plan export (ROADMAP.md carries the plan in the repo)
 /EV Charging Hub Design Package*Project Plan.pdf
+/EV Hub 6-Day Sprint.html
 
 # ---------------------------------------------------------------------------
 # Python (calcs/, ocpp-sim/)
