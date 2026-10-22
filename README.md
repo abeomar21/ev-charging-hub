@@ -1,5 +1,7 @@
 # EV Charging Hub — Design Package
 
+[![CI](https://github.com/abeomar21/ev-charging-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/abeomar21/ev-charging-hub/actions/workflows/ci.yml)
+
 A self-initiated design study for a public EV charging hub at an assumed
 commercial site in Greater Cairo: **2 × 22 kW AC + 2 × 60 kW DC (CCS2)**,
 designed the way a junior design engineer at a charge-point operator would,
