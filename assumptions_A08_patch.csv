@@ -1,0 +1,8 @@
+id,assumption,value,unit,source,status
+A08a,DC charger power factor at full load,0.99,-,Sungrow IDC80E datasheet V2 (>= 0.99) - DEC-02,datasheet
+A08b,DC charger efficiency,0.97,-,Sungrow IDC80E datasheet V2 (maximum efficiency) - DEC-02,TO VERIFY: part-load efficiency curve from Sungrow
+A08c,DC charger rated input current at 60 kW,94,A,Sungrow IDC80E datasheet V2 - DEC-02,datasheet
+A08d,DC charger input THDi at full power,5,%,Sungrow IDC80E datasheet V2 (< 5 %) - DEC-02,datasheet
+A08e,AC charger power factor,0.99,-,Set by the vehicle on-board charger; not on AC22E-01 datasheet,TO VERIFY: vehicle dependent
+A08f,AC wallbox efficiency,1.00,-,AC22E-01 passes AC through; losses are standby only - DEC-02,engineering judgement
+A08g,Charger standby power,"6.5 per AC, 50 per DC",W,Sungrow AC22E-01 V6 (< 6.5 W) and IDC80E V2 (<= 50 W),datasheet
