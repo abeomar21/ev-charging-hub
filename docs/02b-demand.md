@@ -2,7 +2,7 @@
 
 **Site:** Mobil fuel station, Hadayek October (Giza), at the junction of Ahmed Zewail Road and the 6th of October–Wadi El Natrun road (S1 in `docs/02-site.md`).
 **What this file answers:** how many cars will come, how much electricity each one takes, how long it stays, and what time it arrives.
-**Where the numbers live:** rows A10–A20 in `assumptions_A10-A20.csv`, to merge into `assumptions.csv` in T1.5. Rows marked DERIVED are calculated by `calcs/demand_check.py`, not typed by hand.
+**Where the numbers live:** rows A10–A20 in `assumptions.csv` (readable table in `docs/assumptions-register.md`). Rows marked DERIVED are calculated by `calcs/demand_check.py`, not typed by hand.
 
 ## The answer in one table (year 1, base case)
 

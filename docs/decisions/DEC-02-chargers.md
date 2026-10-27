@@ -81,7 +81,7 @@ Why not the others:
 
 ## Consequences
 
-- **A08 replaced** (rows in `assumptions_A08_patch.csv`):
+- **A08 replaced** (rows A08a–A08i in `assumptions.csv`):
   DC PF 0.99, THDi < 5 %, efficiency 0.97 (maximum), input current 94 A at 60 kW.
   AC wallbox efficiency 1.00 and standby 6.5 W; AC PF stays 0.99 but is now
   flagged as vehicle-dependent.
