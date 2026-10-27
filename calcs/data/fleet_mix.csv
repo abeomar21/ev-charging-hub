@@ -1,0 +1,6 @@
+vehicle_class,reference_model,brands_mapped,jul2026_licences,share,usable_kwh,ac_accept_kw,dc_avg_kw,soc_start,soc_end,spec_source,status
+small_bev,BYD Dolphin Surf 43.2 kWh,"BYD (half), DFSK",142,0.14,43.2,11,60,0.20,0.80,https://ev-database.org/car/3194/BYD-DOLPHIN-SURF-432-kWh-Boost,SOURCED specs / DFSK mapping TO VERIFY
+mid_bev,Geely EX5 60 kWh,"Geely, Nissan, BYD (half), Forthing, MG",517,0.50,60.2,11,75,0.20,0.80,https://resource.digitaldealer.com.au/pdf/170215834367b2cde233d6d543706180.pdf ; https://ev-database.org/car/3308/Geely-EX5,SOURCED (EX5 listed in Egypt: egypt.yallamotor.com)
+large_bev,Deepal S07 BEV 80 kWh,"Deepal (half), Zeekr, Xpeng",182,0.18,78.0,11,120,0.20,0.80,https://www.changaneurope.com/dk/modeller/changan-deepal-s07/specifikationer,SOURCED (S07 BEV sold in Egypt: almalnews.com 20 Mar 2026)
+erev_large,Rox 01 REEV 56 kWh,Rox,122,0.12,56.0,7,55,0.30,0.80,https://www.drivearabia.com/news/2025/03/19/first-look-rox-01-reev/,SOURCED battery and AC / DC avg DERIVED from '80% in under 30 min' TO VERIFY
+erev_mid,Deepal S07 REEV 31.7 kWh,Deepal (half),61,0.06,31.7,6.6,32,0.30,0.80,https://data.carnewschina.com/database/deepal/deepal-s07/2023/params,DERIVED (160 km EV range trim = 31.7 kWh; 30-80% in 0.5 h -> 32 kW) / AC kW TO VERIFY
